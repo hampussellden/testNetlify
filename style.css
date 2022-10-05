@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  border: 2px solid orange;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   background: black;
 
-  animation: animatedText 3s infinite;
   text-align: center;
 }
 
@@ -31,13 +31,6 @@ img {
 }
 
 .title {
-  background-image: linear-gradient(
-    to right,
-    #ff0000,
-    #d2f700,
-    #d9ff00,
-    #00ffdd
-  );
   background-clip: text;
   color: transparent;
 
@@ -45,10 +38,4 @@ img {
   background-position: -100%;
 
   animation: animatedText 3s infinite alternate-reverse;
-}
-
-@keyframes animatedText {
-  to {
-    background-position: 100%;
-  }
 }
