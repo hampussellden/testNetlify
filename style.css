@@ -28,8 +28,9 @@ p {
 }
 
 img {
-  width: 50%;
-  max-width: 20rem;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
 }
 
 .title {
